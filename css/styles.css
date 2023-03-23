@@ -1,0 +1,172 @@
+:root {
+    --brand-color-blue-button-hover: #2196f3;
+    --brand-color-grey-text: #757575;
+    --brand-color-background-footer: #2f303a;
+    --brand-color-contact-footer: #ffffff99;
+    --brand-color-whait: #ffffff;
+    --brand-color-black: #000000;
+    --brand-color-leading: #212121;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-blue-button-hover);
+}
+.logo:hover,
+.logo:focus {
+    color: var(--brand-color-blue-button-hover);
+}
+.studio-black {
+    color: var(--brand-color-black);
+}
+.navigation-list {
+    list-style-type: none;
+}
+.navigation-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--brand-color-leading);
+    text-decoration: none;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+    color: var(--brand-color-blue-button-hover);
+}
+.mail-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--brand-color-grey-text);
+}
+.mail-tel:hover,
+.mail-tel:focus {
+    color: var(--brand-color-blue-button-hover);
+}
+.headline {
+    background-color: var(--brand-color-background-footer);
+}
+.headline-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--brand-color-whait);
+}
+.headline-button {
+    width: 200px;
+    height: 50px;
+    background: var(--brand-color-blue-button-hover);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--brand-color-whait);
+    cursor: pointer;
+}
+.lorem-list {
+    list-style-type: none;
+}
+.lorem {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+.lorem-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-grey-text);
+}
+.headline-img {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.about-us-img {
+    width: 370px;
+    height: 294px;
+}
+
+.john-img-title {
+    font-size: 16px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.article-img {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-grey-text);
+}
+.adress-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--brand-color-whait);
+}
+.adress-link:hover,
+.adress-link:focus {
+    color: var(--brand-color-blue-button-hover);
+}
+.button-list {
+    list-style-type: none;
+}
+.portfolio-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color: var(--brand-color-blue-button-hover);
+    color: var(--brand-color-whait);
+}
+
+.portfolio-title-img {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-article {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-grey-text);
+}
+.mail-tel-footer {
+    color: var(--brand-color-contact-footer);
+    text-decoration: none;
+}
+.mail-tel-footer:hover,
+.mail-tel-footer:focus {
+    color: var(--brand-color-blue-button-hover);
+}
+.footer {
+    background: var(--brand-color-background-footer);
+}
+
+.studio-white {
+    color: var(--brand-color-whait);
+}
