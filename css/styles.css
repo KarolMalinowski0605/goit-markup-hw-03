@@ -1,3 +1,4 @@
+
 :root {
     --brand-color-blue-button-hover: #2196f3;
     --brand-color-grey-text: #757575;
@@ -7,9 +8,16 @@
     --brand-color-black: #000000;
     --brand-color-leading: #212121;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 .logo {
     font-family: 'Raleway';
@@ -19,6 +27,13 @@ body {
     text-decoration: none;
     letter-spacing: 0.03em;
     color: var(--brand-color-blue-button-hover);
+  
+    
+  padding: 24px 1240px 25px 215px;
+
+
+   
+    
 }
 .logo:hover,
 .logo:focus {
@@ -29,7 +44,15 @@ body {
 }
 .navigation-list {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top:32px ;
+    padding-bottom: 32px;
+    
+
 }
+
 .navigation-link {
     font-weight: 500;
     font-size: 14px;
@@ -37,10 +60,20 @@ body {
     letter-spacing: 0.02em;
     color: var(--brand-color-leading);
     text-decoration: none;
-}
+    display: flex;
+    
+    padding-right:46px ;
+   
+    }
 .navigation-link:hover,
 .navigation-link:focus {
     color: var(--brand-color-blue-button-hover);
+}
+.mail-tel-div{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+
 }
 .mail-tel {
     font-weight: 500;
@@ -49,6 +82,8 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--brand-color-grey-text);
+    display: flex;
+    padding-right: 50px;
 }
 .mail-tel:hover,
 .mail-tel:focus {

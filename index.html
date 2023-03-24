@@ -10,188 +10,200 @@
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="/goit-markup-hw-02/css/styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./css/styles.css" />
         <title>Document</title>
     </head>
     <body>
-        <header class="top-page">
-            <a class="logo" href="/goit-markup-hw-02/index.html"
-                >Web<span class="studio-black">Studio</span></a
-            >
-            <nav class="navigation">
-                <ul class="navigation-list">
-                    <li>
-                        <a
-                            class="navigation-link"
-                            href="/goit-markup-hw-02/index.html"
-                            >Agencja</a
-                        >
-                    </li>
-                    <li>
-                        <a
-                            class="navigation-link"
-                            href="/goit-markup-hw-02/portfolio.html"
-                            >Portfolio</a
-                        >
-                    </li>
-                    <li><a class="navigation-link" href="#">Kontakt</a></li>
-                </ul>
-            </nav>
-            <div>
-                <a class="mail-tel" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
+        <header>
+            <div class="container">
+               
+                <a class="logo" href="./index.html"
+                    >Web<span class="studio-black">Studio</span></a
                 >
-                <a class="mail-tel" href="tel:+48111111111">+48 111 111 111</a>
+                <nav>
+                    <ul class="navigation-list">
+                        <li>
+                            <a class="navigation-link" href="./index.html"
+                                >Agencja</a
+                            >
+                        </li>
+                        <li>
+                            <a class="navigation-link" href="./portfolio.html"
+                                >Portfolio</a
+                            >
+                        </li>
+                        <li><a class="navigation-link" href="#">Kontakt</a></li>
+                    </ul>
+                </nav>
+                <div class="mail-tel-div">
+                    <a class="mail-tel" href="mailto:info@devstudio.com"
+                        >info@devstudio.com</a
+                    >
+                    <a class="mail-tel" href="tel:+48111111111"
+                        >+48 111 111 111</a
+                    >
+                </div>
             </div>
         </header>
         <main>
-            <section class="headline">
-                <h1 class="headline-text">
-                    EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
-                </h1>
-                <button class="headline-button" type="button">
-                    Zamów usługe
-                </button>
-            </section>
-            <section>
-                <ul class="lorem-list">
-                    <li>
-                        <h3 class="lorem">LOREM IPSUM</h3>
-                        <p class="lorem-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nam vel arcu sem. Sed non sodales dui.
-                            Interdum et malesuada
-                        </p>
-                    </li>
-                    <li>
-                        <h3 class="lorem">LOREM IPSUM</h3>
-                        <p class="lorem-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nam vel arcu sem. Sed non sodales dui.
-                            Interdum et malesuada
-                        </p>
-                    </li>
-                    <li>
-                        <h3 class="lorem">LOREM IPSUM</h3>
-                        <p class="lorem-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nam vel arcu sem. Sed non sodales dui.
-                            Interdum et malesuada
-                        </p>
-                    </li>
-                    <li>
-                        <h3 class="lorem">LOREM IPSUM</h3>
-                        <p class="lorem-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nam vel arcu sem. Sed non sodales dui.
-                            Interdum et malesuada
-                        </p>
-                    </li>
-                </ul>
-            </section>
-            <section>
-                <h2 class="headline-img">Czym się zajmujemy</h2>
-                <ul class="lorem-list">
-                    <li>
-                        <img
-                            class="about-us-img"
-                            src="./images/about-us/about-us-img.jpg"
-                            alt="pisze kod html"
-                            width="370"
-                        />
-                    </li>
-                    <li>
-                        <img
-                            class="about-us-img"
-                            src="./images/about-us/about-us-img2.jpg"
-                            alt="tworzy style css"
-                            width="370"
-                            height="294"
-                        />
-                    </li>
-                    <li>
-                        <img
-                            class="about-us-img"
-                            src="./images/about-us/about-us-img3.jpg"
-                            alt="programiuje w JavaScript"
-                            width="370"
-                            height="294"
-                        />
-                    </li>
-                </ul>
-            </section>
-            <section>
-                <h2 class="headline-img">Nasz zespół</h2>
-                <ul class="lorem-list">
-                    <li>
-                        <img
-                            src="./images/team/JohnDoe.jpg"
-                            alt="John Doe"
-                            width="270"
-                            height="260"
-                        />
-                        <div>
-                            <h3 class="john-img-title">John Doe</h3>
-                            <p class="article-img">Product Designer</p>
-                        </div>
-                    </li>
-                    <li>
-                        <img
-                            src="./images/team/JohnDoe2.jpg"
-                            alt="John Doe"
-                            width="270"
-                            height="260"
-                        />
-                        <div>
-                            <h3 class="john-img-title">John Doe</h3>
-                            <p class="article-img">Frontend Developer</p>
-                        </div>
-                    </li>
-                    <li>
-                        <img
-                            src="./images/team/JohnDoe3.jpg"
-                            alt="John Doe"
-                            width="270"
-                            height="260"
-                        />
-                        <div>
-                            <h3 class="john-img-title">John Doe</h3>
-                            <p class="article-img">Marketing</p>
-                        </div>
-                    </li>
-                    <li>
-                        <img
-                            src="./images/team/JohnDoe4.jpg"
-                            alt="John Doe"
-                            width="270"
-                            height="260"
-                        />
-                        <div>
-                            <h3 class="john-img-title">John Doe</h3>
-                            <p class="article-img">UI Designer</p>
-                        </div>
-                    </li>
-                </ul>
-            </section>
+            <div class="container">
+                <section class="headline">
+                    <h1 class="headline-text">
+                        EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+                    </h1>
+                    <button class="headline-button" type="button">
+                        Zamów usługe
+                    </button>
+                </section>
+                <section >
+                    <ul class="lorem-list">
+                        <li>
+                            <h3 class="lorem">LOREM IPSUM</h3>
+                            <p class="lorem-text">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Nam vel arcu sem. Sed non
+                                sodales dui. Interdum et malesuada
+                            </p>
+                        </li>
+                        <li>
+                            <h3 class="lorem">LOREM IPSUM</h3>
+                            <p class="lorem-text">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Nam vel arcu sem. Sed non
+                                sodales dui. Interdum et malesuada
+                            </p>
+                        </li>
+                        <li>
+                            <h3 class="lorem">LOREM IPSUM</h3>
+                            <p class="lorem-text">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Nam vel arcu sem. Sed non
+                                sodales dui. Interdum et malesuada
+                            </p>
+                        </li>
+                        <li>
+                            <h3 class="lorem">LOREM IPSUM</h3>
+                            <p class="lorem-text">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Nam vel arcu sem. Sed non
+                                sodales dui. Interdum et malesuada
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+                <section >
+                    <h2 class="headline-img">Czym się zajmujemy</h2>
+                    <ul class="lorem-list">
+                        <li>
+                            <img
+                                class="about-us-img"
+                                src="./images/about-us/about-us-img.jpg"
+                                alt="pisze kod html"
+                                width="370"
+                            />
+                        </li>
+                        <li>
+                            <img
+                                class="about-us-img"
+                                src="./images/about-us/about-us-img2.jpg"
+                                alt="tworzy style css"
+                                width="370"
+                                height="294"
+                            />
+                        </li>
+                        <li>
+                            <img
+                                class="about-us-img"
+                                src="./images/about-us/about-us-img3.jpg"
+                                alt="programiuje w JavaScript"
+                                width="370"
+                                height="294"
+                            />
+                        </li>
+                    </ul>
+                </section>
+                <section >
+                    <h2 class="headline-img">Nasz zespół</h2>
+                    <ul class="lorem-list">
+                        <li>
+                            <img
+                                src="./images/team/JohnDoe.jpg"
+                                alt="John Doe"
+                                width="270"
+                                height="260"
+                            />
+                            <div>
+                                <h3 class="john-img-title">John Doe</h3>
+                                <p class="article-img">Product Designer</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img
+                                src="./images/team/JohnDoe2.jpg"
+                                alt="John Doe"
+                                width="270"
+                                height="260"
+                            />
+                            <div>
+                                <h3 class="john-img-title">John Doe</h3>
+                                <p class="article-img">Frontend Developer</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img
+                                src="./images/team/JohnDoe3.jpg"
+                                alt="John Doe"
+                                width="270"
+                                height="260"
+                            />
+                            <div>
+                                <h3 class="john-img-title">John Doe</h3>
+                                <p class="article-img">Marketing</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img
+                                src="./images/team/JohnDoe4.jpg"
+                                alt="John Doe"
+                                width="270"
+                                height="260"
+                            />
+                            <div>
+                                <h3 class="john-img-title">John Doe</h3>
+                                <p class="article-img">UI Designer</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
         </main>
         <footer class="footer">
-            <a class="logo" href="/goit-markup-hw-02/index.html"
-                >Web<span class="studio-white">Studio</span></a
-            >
-            <adress>
-                <a
-                    class="adress-link"
-                    href="https://goo.gl/maps/D6jn3cTC61MHrD3q7"
-                    target="_blank"
-                    >m. Warszawa, Aleje Jerozolimskie 21</a
+            <div >
+                <a class="logo" href="./index.html"
+                    >Web<span class="studio-white">Studio</span></a
                 >
-                <a class="mail-tel-footer" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
-                >
-                <a class="mail-tel-footer" href="tel:+48111111111"
-                    >+48 111 111 111</a
-                >
-            </adress>
+                <adress>
+                    <a
+                        class="adress-link"
+                        href="https://goo.gl/maps/D6jn3cTC61MHrD3q7"
+                        target="_blank"
+                        >m. Warszawa, Aleje Jerozolimskie 21</a
+                    >
+                    <a class="mail-tel-footer" href="mailto:info@devstudio.com"
+                        >info@devstudio.com</a
+                    >
+                    <a class="mail-tel-footer" href="tel:+48111111111"
+                        >+48 111 111 111</a
+                    >
+                </adress>
+            </div>
         </footer>
     </body>
 </html>
