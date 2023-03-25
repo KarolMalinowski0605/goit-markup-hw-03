@@ -1,4 +1,3 @@
-
 :root {
     --brand-color-blue-button-hover: #2196f3;
     --brand-color-grey-text: #757575;
@@ -8,16 +7,36 @@
     --brand-color-black: #000000;
     --brand-color-leading: #212121;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
+    width: 1600px;
+}
+*::before *::after {
+    margin: 0px;
+    padding: 0px;
 }
 .container {
     width: 1200px;
+   
     margin: 0 auto;
+    padding: 0 15px;
+}
+.section {
+    padding: 94px 0;
+}
+.header {
+    padding: 24px 0px 25px;
+}
+.header-wrapper {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+}
+
+.header-nav-wrapper {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
 }
 .logo {
     font-family: 'Raleway';
@@ -27,32 +46,20 @@ body {
     text-decoration: none;
     letter-spacing: 0.03em;
     color: var(--brand-color-blue-button-hover);
-  
-    
-  padding: 24px 1240px 25px 215px;
-
-
-   
-    
 }
-.logo:hover,
-.logo:focus {
+.logo:is(:hover, :focus) {
     color: var(--brand-color-blue-button-hover);
 }
 .studio-black {
     color: var(--brand-color-black);
 }
+
 .navigation-list {
-    list-style-type: none;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top:32px ;
-    padding-bottom: 32px;
-    
-
+    padding-left: 93px;
+    list-style-type: none;
+    gap: 46px;
 }
-
 .navigation-link {
     font-weight: 500;
     font-size: 14px;
@@ -61,37 +68,38 @@ body {
     color: var(--brand-color-leading);
     text-decoration: none;
     display: flex;
-    
-    padding-right:46px ;
-   
-    }
-.navigation-link:hover,
-.navigation-link:focus {
+}
+.navigation-link:is(:hover, :focus) {
     color: var(--brand-color-blue-button-hover);
 }
-.mail-tel-div{
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-end;
-
+.contacts {
+    display: flex;
+    gap: 50px;
+    padding-left: 371px;
 }
-.mail-tel {
+.contacts > a {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--brand-color-grey-text);
-    display: flex;
-    padding-right: 50px;
 }
-.mail-tel:hover,
-.mail-tel:focus {
+.contacts > a:is(:hover, :focus) {
     color: var(--brand-color-blue-button-hover);
 }
 .headline {
     background-color: var(--brand-color-background-footer);
+    padding: 200px 0px;
+    border-radius:1px 
+    #ECECEC
+
+   
 }
+.headline > .container {
+    text-align: center;
+}
+
 .headline-text {
     font-weight: 900;
     font-size: 44px;
@@ -99,6 +107,8 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--brand-color-whait);
+    margin-bottom: 30px;
+    padding: 0 252px;
 }
 .headline-button {
     width: 200px;
@@ -109,22 +119,37 @@ body {
     line-height: 1.87;
     color: var(--brand-color-whait);
     cursor: pointer;
+    display: flex;
+    margin-left: 499px;
+    padding: 10px 41px 10px 42px;
 }
+
 .lorem-list {
+    border: 1px solid red;
     list-style-type: none;
+    display: flex;
+    gap: 30px;
 }
+
 .lorem {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
 }
+
 .lorem-text {
+    border: 1px dashed green;
+
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--brand-color-grey-text);
 }
+.backgraund-team{
+    background-color: #F5F4FA;
+}
+
 .headline-img {
     font-weight: 700;
     font-size: 36px;
@@ -136,7 +161,6 @@ body {
     width: 370px;
     height: 294px;
 }
-
 .john-img-title {
     font-size: 16px;
     line-height: 1.16;
@@ -150,19 +174,47 @@ body {
     letter-spacing: 0.03em;
     color: var(--brand-color-grey-text);
 }
+.footer {
+    background: var(--brand-color-background-footer);
+}
+.studio-white {
+    color: var(--brand-color-whait);
+    padding-top: 60px;
+}
+
+.adress-wrapper {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+
+}
 .adress-link {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--brand-color-whait);
+    padding-top: 20px;
+    padding-bottom: 9px;
 }
-.adress-link:hover,
-.adress-link:focus {
+.adress-link:is(:hover, :focus) {
+    color: var(--brand-color-blue-button-hover);
+}
+
+.mail-tel-footer {
+    color: var(--brand-color-contact-footer);
+    text-decoration: none;
+    padding-bottom: 9px;
+    
+}
+.mail-tel-footer:is(:hover, :focus) {
     color: var(--brand-color-blue-button-hover);
 }
 .button-list {
     list-style-type: none;
+    display: flex;
+    justify-content:center;
+    gap:8px;
 }
 .portfolio-button {
     font-weight: 500;
@@ -171,6 +223,11 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
+    padding: 6px 22px 6px 22px;
+    border: none;
+    border-radius: 4px;
+    background-color:#F5F4FA
+    
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -189,19 +246,4 @@ body {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--brand-color-grey-text);
-}
-.mail-tel-footer {
-    color: var(--brand-color-contact-footer);
-    text-decoration: none;
-}
-.mail-tel-footer:hover,
-.mail-tel-footer:focus {
-    color: var(--brand-color-blue-button-hover);
-}
-.footer {
-    background: var(--brand-color-background-footer);
-}
-
-.studio-white {
-    color: var(--brand-color-whait);
 }
