@@ -139,25 +139,26 @@ body {
     border: none;
 }
 
-.lorem-list {
+.text-list {
     list-style-type: none;
     display: flex;
 
     gap: 30px;
 }
 
-.lorem {
+.text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
 }
 
-.lorem-text {
+.text-wrapper {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--brand-color-grey-text);
+    margin-top: 10px;
 }
 
 .team-background {
@@ -285,7 +286,7 @@ body {
     color: var(--brand-color-white);
 }
 
-.portfolio-lorem-list {
+.portfolio-text-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
