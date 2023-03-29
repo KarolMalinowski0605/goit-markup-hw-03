@@ -107,7 +107,6 @@ body {
 .headline {
     background-color: var(--brand-color-background-footer);
     padding: 200px 0px;
-    border-radius: 1px #ececec;
 }
 
 .headline > .container {
@@ -183,7 +182,7 @@ body {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.team-list{
+.team-list {
     list-style-type: none;
     display: flex;
     gap: 30px;
@@ -221,11 +220,11 @@ body {
 
 .footer {
     background: var(--brand-color-background-footer);
+    padding: 60px;
 }
 
 .studio-white {
     color: var(--brand-color-white);
-    padding-top: 60px;
 }
 
 .adress-wrapper {
@@ -249,6 +248,9 @@ body {
 }
 
 .mail-tel-footer {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--brand-color-contact-footer);
     text-decoration: none;
     padding-bottom: 9px;
@@ -264,7 +266,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 8px;
-    padding-bottom: 56px;
+    margin-bottom: 56px;
 }
 
 .portfolio-button {
